@@ -1,0 +1,50 @@
+Object, class : 
+	Object is a instance of a class, where class provides a blueprint for the object.
+	example: (string)class = ("Hello")string_object
+	example: (int)class = (123)string_object
+Inheritance :
+	It allows a class to inherit the properties of a super class, can allow a sub class to have access the methods and properties of a super class.
+	ex: 
+
+	#where Class name always is capitalized 
+	class Meetesh < String 
+	def initialize(str)
+	 @str = str
+	end
+	def hello
+	 puts "hello"
+	end
+	def self.test
+	 puts "sup shady"
+	end
+	end
+
+	#object methods
+	Obj = Meetesh.new
+	Obj.hello
+
+	#class methods
+	Meetesh.test
+
+	#using string superclass methods
+	Meetesh.inspect
+
+Polymorphism :
+	Polymorphism is the ability of an object to take on many forms
+	ex: 
+
+	# passing integers
+	1 + 1 ==> 2
+	# addition operator
+	"1"+"1" ==> "11"
+	# concatenation operator   
+
+
+Encapsulation :
+	It helps to bind the data and method/function together.
+	making different data available or hidden across specified methods.
+	different types of variables help to perform such opearations.  
+
+Abstraction :
+	It's a concept that makes emphasis on hiding the inner working object from the outside world.
+	It helps to manage complex applications.
